@@ -103,7 +103,7 @@ namespace TileStyleSDK
         /// 0 X N X 0
         /// 0 0 X 0 0
         /// </summary>
-        /// <param name="t">T.</param>
+        /// <param name="t">The Tile whose mask is being re-evaluated.</param>
         private static void DoAutoCompletions(Tile t)
         {
             //The column index of the original Tile to be autocompleted.

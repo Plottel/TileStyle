@@ -29,6 +29,16 @@ namespace TileStyleSDK
         private static ListWithActive<Tileset> _tilesets = new ListWithActive<Tileset>();
 
         /// <summary>
+        /// Gets the currently active Tileset. This is referenced by most other classes
+        /// as it represents the "official" Tileset which is to be interacted with.
+        /// </summary>
+        /// <value>The active Tileset.</value>
+        public static Tileset Active
+        {
+            get {return _tilesets.Active;}
+        }
+
+        /// <summary>
         /// Fetches the Tileset with the passed in name from the master list.
         /// </summary>
         /// <returns>The Tileset matching the passed in name.</returns>
@@ -41,16 +51,6 @@ namespace TileStyleSDK
                     return tileset;
             }
             throw new Exception ("Tileset with name: " + name + " could not be found");
-        }
-
-        /// <summary>
-        /// Gets the currently active Tileset. This is referenced by most other classes
-        /// as it represents the "official" Tileset which is to be interacted with.
-        /// </summary>
-        /// <value>The active Tileset.</value>
-        public static Tileset Active
-        {
-            get {return _tilesets.Active;}
         }
 
         /// <summary>
