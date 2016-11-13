@@ -8,30 +8,8 @@
     <Files>
       <File FileName="src\TileStyleSDK\Render\Neighbour.cs" Line="11" Column="6" />
       <File FileName="src\TileStyleSDK\Render\Layer.cs" Line="12" Column="14" />
-      <File FileName="src\TileStyleSDK\Controllers\PaletteManager.cs" Line="141" Column="22" />
+      <File FileName="src\TileStyleSDK\Controllers\PaletteManager.cs" Line="137" Column="14" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="MyGameWin" expanded="True">
-            <Node name="MyGameWin" expanded="True">
-              <Node name="src" expanded="True">
-                <Node name="TileStyleSDK" expanded="True">
-                  <Node name="Controllers" expanded="True">
-                    <Node name="PaletteManager.cs" selected="True" />
-                  </Node>
-                  <Node name="Core" expanded="True" />
-                  <Node name="Edit" expanded="True" />
-                  <Node name="Helpers" expanded="True" />
-                  <Node name="Panels" expanded="True" />
-                  <Node name="Render" expanded="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MyGameWin PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
