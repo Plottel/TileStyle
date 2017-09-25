@@ -1,6 +1,6 @@
 # Tile Style
 
-An SDK (stub) for creating tile-based levels. Built in my 2nd semester of university for a semester project.
+An SDK (stub) for creating tile-based levels for C# SwinGame. Built in my 2nd semester of university for a semester project.
 
 ### Feature List
 * Multiple layers
